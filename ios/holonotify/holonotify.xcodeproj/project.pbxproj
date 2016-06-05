@@ -16,6 +16,8 @@
 		D01EB7E21D0312DE00D7179A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01EB7E01D0312DE00D7179A /* LaunchScreen.storyboard */; };
 		D01EB7ED1D0312DE00D7179A /* holonotifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01EB7EC1D0312DE00D7179A /* holonotifyTests.swift */; };
 		D01EB7F81D0312DE00D7179A /* holonotifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01EB7F71D0312DE00D7179A /* holonotifyUITests.swift */; };
+		D03BD1AE1D0454DF00780383 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03BD1AD1D0454DF00780383 /* ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D03BD1B01D04550800780383 /* AVPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03BD1AF1D04550800780383 /* AVPlayerView.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		D01EB7F31D0312DE00D7179A /* holonotifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = holonotifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01EB7F71D0312DE00D7179A /* holonotifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = holonotifyUITests.swift; sourceTree = "<group>"; };
 		D01EB7F91D0312DE00D7179A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D03BD1AD1D0454DF00780383 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D03BD1AF1D04550800780383 /* AVPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				D01EB7D31D0312DE00D7179A /* AppDelegate.swift */,
+				D03BD1AD1D0454DF00780383 /* ViewController.swift */,
 				D01EB7D51D0312DE00D7179A /* RootViewController.swift */,
 				D01EB7D71D0312DE00D7179A /* DataViewController.swift */,
 				D01EB7D91D0312DE00D7179A /* ModelController.swift */,
@@ -109,6 +114,7 @@
 				D01EB7DE1D0312DE00D7179A /* Assets.xcassets */,
 				D01EB7E01D0312DE00D7179A /* LaunchScreen.storyboard */,
 				D01EB7E31D0312DE00D7179A /* Info.plist */,
+				D03BD1AF1D04550800780383 /* AVPlayerView.swift */,
 			);
 			path = holonotify;
 			sourceTree = "<group>";
@@ -264,6 +270,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D03BD1B01D04550800780383 /* AVPlayerView.swift in Sources */,
+				D03BD1AE1D0454DF00780383 /* ViewController.swift in Sources */,
 				D01EB7D61D0312DE00D7179A /* RootViewController.swift in Sources */,
 				D01EB7DA1D0312DE00D7179A /* ModelController.swift in Sources */,
 				D01EB7D81D0312DE00D7179A /* DataViewController.swift in Sources */,
@@ -496,6 +504,7 @@
 				D01EB7FE1D0312DE00D7179A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D01EB7FF1D0312DE00D7179A /* Build configuration list for PBXNativeTarget "holonotifyTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +513,7 @@
 				D01EB8011D0312DE00D7179A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D01EB8021D0312DE00D7179A /* Build configuration list for PBXNativeTarget "holonotifyUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +522,7 @@
 				D01EB8041D0312DE00D7179A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
