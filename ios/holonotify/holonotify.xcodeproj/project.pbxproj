@@ -7,72 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D01EB7D41D0312DE00D7179A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01EB7D31D0312DE00D7179A /* AppDelegate.swift */; };
-		D01EB7D61D0312DE00D7179A /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01EB7D51D0312DE00D7179A /* RootViewController.swift */; };
-		D01EB7D81D0312DE00D7179A /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01EB7D71D0312DE00D7179A /* DataViewController.swift */; };
-		D01EB7DA1D0312DE00D7179A /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01EB7D91D0312DE00D7179A /* ModelController.swift */; };
-		D01EB7DD1D0312DE00D7179A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01EB7DB1D0312DE00D7179A /* Main.storyboard */; };
-		D01EB7DF1D0312DE00D7179A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01EB7DE1D0312DE00D7179A /* Assets.xcassets */; };
-		D01EB7E21D0312DE00D7179A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01EB7E01D0312DE00D7179A /* LaunchScreen.storyboard */; };
-		D01EB7ED1D0312DE00D7179A /* holonotifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01EB7EC1D0312DE00D7179A /* holonotifyTests.swift */; };
-		D01EB7F81D0312DE00D7179A /* holonotifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01EB7F71D0312DE00D7179A /* holonotifyUITests.swift */; };
-		D03BD1AE1D0454DF00780383 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03BD1AD1D0454DF00780383 /* ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		D03BD1B01D04550800780383 /* AVPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03BD1AF1D04550800780383 /* AVPlayerView.swift */; settings = {ASSET_TAGS = (); }; };
+		D03FC8851D0BE34600FB876B /* IMG_0024.MOV in Resources */ = {isa = PBXBuildFile; fileRef = D03FC8841D0BE34600FB876B /* IMG_0024.MOV */; settings = {ASSET_TAGS = (); }; };
+		D0EA3A1F1D0B096500E193FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EA3A1E1D0B096500E193FD /* AppDelegate.swift */; };
+		D0EA3A211D0B096500E193FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EA3A201D0B096500E193FD /* ViewController.swift */; };
+		D0EA3A241D0B096500E193FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0EA3A221D0B096500E193FD /* Main.storyboard */; };
+		D0EA3A261D0B096500E193FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0EA3A251D0B096500E193FD /* Assets.xcassets */; };
+		D0EA3A291D0B096500E193FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0EA3A271D0B096500E193FD /* LaunchScreen.storyboard */; };
+		D0EA3A311D0B0AEC00E193FD /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EA3A301D0B0AEC00E193FD /* VideoViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		D01EB7E91D0312DE00D7179A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D01EB7C81D0312DE00D7179A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D01EB7CF1D0312DE00D7179A;
-			remoteInfo = holonotify;
-		};
-		D01EB7F41D0312DE00D7179A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D01EB7C81D0312DE00D7179A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D01EB7CF1D0312DE00D7179A;
-			remoteInfo = holonotify;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		D01EB7D01D0312DE00D7179A /* holonotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = holonotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D01EB7D31D0312DE00D7179A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D01EB7D51D0312DE00D7179A /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		D01EB7D71D0312DE00D7179A /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		D01EB7D91D0312DE00D7179A /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
-		D01EB7DC1D0312DE00D7179A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D01EB7DE1D0312DE00D7179A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D01EB7E11D0312DE00D7179A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D01EB7E31D0312DE00D7179A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D01EB7E81D0312DE00D7179A /* holonotifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = holonotifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D01EB7EC1D0312DE00D7179A /* holonotifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = holonotifyTests.swift; sourceTree = "<group>"; };
-		D01EB7EE1D0312DE00D7179A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D01EB7F31D0312DE00D7179A /* holonotifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = holonotifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D01EB7F71D0312DE00D7179A /* holonotifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = holonotifyUITests.swift; sourceTree = "<group>"; };
-		D01EB7F91D0312DE00D7179A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D03BD1AD1D0454DF00780383 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D03BD1AF1D04550800780383 /* AVPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPlayerView.swift; sourceTree = "<group>"; };
+		D03FC8841D0BE34600FB876B /* IMG_0024.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_0024.MOV; sourceTree = "<group>"; };
+		D0EA3A1B1D0B096500E193FD /* holonotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = holonotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0EA3A1E1D0B096500E193FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0EA3A201D0B096500E193FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0EA3A231D0B096500E193FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0EA3A251D0B096500E193FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0EA3A281D0B096500E193FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0EA3A2A1D0B096500E193FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0EA3A301D0B0AEC00E193FD /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D01EB7CD1D0312DE00D7179A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D01EB7E51D0312DE00D7179A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D01EB7F01D0312DE00D7179A /* Frameworks */ = {
+		D0EA3A181D0B096500E193FD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,71 +39,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D01EB7C71D0312DE00D7179A = {
+		D0EA3A121D0B096500E193FD = {
 			isa = PBXGroup;
 			children = (
-				D01EB7D21D0312DE00D7179A /* holonotify */,
-				D01EB7EB1D0312DE00D7179A /* holonotifyTests */,
-				D01EB7F61D0312DE00D7179A /* holonotifyUITests */,
-				D01EB7D11D0312DE00D7179A /* Products */,
+				D0EA3A1D1D0B096500E193FD /* holonotify */,
+				D0EA3A1C1D0B096500E193FD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D01EB7D11D0312DE00D7179A /* Products */ = {
+		D0EA3A1C1D0B096500E193FD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D01EB7D01D0312DE00D7179A /* holonotify.app */,
-				D01EB7E81D0312DE00D7179A /* holonotifyTests.xctest */,
-				D01EB7F31D0312DE00D7179A /* holonotifyUITests.xctest */,
+				D0EA3A1B1D0B096500E193FD /* holonotify.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D01EB7D21D0312DE00D7179A /* holonotify */ = {
+		D0EA3A1D1D0B096500E193FD /* holonotify */ = {
 			isa = PBXGroup;
 			children = (
-				D01EB7D31D0312DE00D7179A /* AppDelegate.swift */,
-				D03BD1AD1D0454DF00780383 /* ViewController.swift */,
-				D01EB7D51D0312DE00D7179A /* RootViewController.swift */,
-				D01EB7D71D0312DE00D7179A /* DataViewController.swift */,
-				D01EB7D91D0312DE00D7179A /* ModelController.swift */,
-				D01EB7DB1D0312DE00D7179A /* Main.storyboard */,
-				D01EB7DE1D0312DE00D7179A /* Assets.xcassets */,
-				D01EB7E01D0312DE00D7179A /* LaunchScreen.storyboard */,
-				D01EB7E31D0312DE00D7179A /* Info.plist */,
-				D03BD1AF1D04550800780383 /* AVPlayerView.swift */,
+				D03FC8841D0BE34600FB876B /* IMG_0024.MOV */,
+				D0EA3A1E1D0B096500E193FD /* AppDelegate.swift */,
+				D0EA3A201D0B096500E193FD /* ViewController.swift */,
+				D0EA3A301D0B0AEC00E193FD /* VideoViewController.swift */,
+				D0EA3A221D0B096500E193FD /* Main.storyboard */,
+				D0EA3A251D0B096500E193FD /* Assets.xcassets */,
+				D0EA3A271D0B096500E193FD /* LaunchScreen.storyboard */,
+				D0EA3A2A1D0B096500E193FD /* Info.plist */,
 			);
 			path = holonotify;
-			sourceTree = "<group>";
-		};
-		D01EB7EB1D0312DE00D7179A /* holonotifyTests */ = {
-			isa = PBXGroup;
-			children = (
-				D01EB7EC1D0312DE00D7179A /* holonotifyTests.swift */,
-				D01EB7EE1D0312DE00D7179A /* Info.plist */,
-			);
-			path = holonotifyTests;
-			sourceTree = "<group>";
-		};
-		D01EB7F61D0312DE00D7179A /* holonotifyUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D01EB7F71D0312DE00D7179A /* holonotifyUITests.swift */,
-				D01EB7F91D0312DE00D7179A /* Info.plist */,
-			);
-			path = holonotifyUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D01EB7CF1D0312DE00D7179A /* holonotify */ = {
+		D0EA3A1A1D0B096500E193FD /* holonotify */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D01EB7FC1D0312DE00D7179A /* Build configuration list for PBXNativeTarget "holonotify" */;
+			buildConfigurationList = D0EA3A2D1D0B096500E193FD /* Build configuration list for PBXNativeTarget "holonotify" */;
 			buildPhases = (
-				D01EB7CC1D0312DE00D7179A /* Sources */,
-				D01EB7CD1D0312DE00D7179A /* Frameworks */,
-				D01EB7CE1D0312DE00D7179A /* Resources */,
+				D0EA3A171D0B096500E193FD /* Sources */,
+				D0EA3A181D0B096500E193FD /* Frameworks */,
+				D0EA3A191D0B096500E193FD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -154,71 +87,25 @@
 			);
 			name = holonotify;
 			productName = holonotify;
-			productReference = D01EB7D01D0312DE00D7179A /* holonotify.app */;
+			productReference = D0EA3A1B1D0B096500E193FD /* holonotify.app */;
 			productType = "com.apple.product-type.application";
-		};
-		D01EB7E71D0312DE00D7179A /* holonotifyTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D01EB7FF1D0312DE00D7179A /* Build configuration list for PBXNativeTarget "holonotifyTests" */;
-			buildPhases = (
-				D01EB7E41D0312DE00D7179A /* Sources */,
-				D01EB7E51D0312DE00D7179A /* Frameworks */,
-				D01EB7E61D0312DE00D7179A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D01EB7EA1D0312DE00D7179A /* PBXTargetDependency */,
-			);
-			name = holonotifyTests;
-			productName = holonotifyTests;
-			productReference = D01EB7E81D0312DE00D7179A /* holonotifyTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		D01EB7F21D0312DE00D7179A /* holonotifyUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D01EB8021D0312DE00D7179A /* Build configuration list for PBXNativeTarget "holonotifyUITests" */;
-			buildPhases = (
-				D01EB7EF1D0312DE00D7179A /* Sources */,
-				D01EB7F01D0312DE00D7179A /* Frameworks */,
-				D01EB7F11D0312DE00D7179A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D01EB7F51D0312DE00D7179A /* PBXTargetDependency */,
-			);
-			name = holonotifyUITests;
-			productName = holonotifyUITests;
-			productReference = D01EB7F31D0312DE00D7179A /* holonotifyUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D01EB7C81D0312DE00D7179A /* Project object */ = {
+		D0EA3A131D0B096500E193FD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = sximada;
 				TargetAttributes = {
-					D01EB7CF1D0312DE00D7179A = {
+					D0EA3A1A1D0B096500E193FD = {
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = 9DZTRJYYGV;
-					};
-					D01EB7E71D0312DE00D7179A = {
-						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = 9DZTRJYYGV;
-						TestTargetID = D01EB7CF1D0312DE00D7179A;
-					};
-					D01EB7F21D0312DE00D7179A = {
-						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = 9DZTRJYYGV;
-						TestTargetID = D01EB7CF1D0312DE00D7179A;
 					};
 				};
 			};
-			buildConfigurationList = D01EB7CB1D0312DE00D7179A /* Build configuration list for PBXProject "holonotify" */;
+			buildConfigurationList = D0EA3A161D0B096500E193FD /* Build configuration list for PBXProject "holonotify" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -226,103 +113,56 @@
 				en,
 				Base,
 			);
-			mainGroup = D01EB7C71D0312DE00D7179A;
-			productRefGroup = D01EB7D11D0312DE00D7179A /* Products */;
+			mainGroup = D0EA3A121D0B096500E193FD;
+			productRefGroup = D0EA3A1C1D0B096500E193FD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D01EB7CF1D0312DE00D7179A /* holonotify */,
-				D01EB7E71D0312DE00D7179A /* holonotifyTests */,
-				D01EB7F21D0312DE00D7179A /* holonotifyUITests */,
+				D0EA3A1A1D0B096500E193FD /* holonotify */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D01EB7CE1D0312DE00D7179A /* Resources */ = {
+		D0EA3A191D0B096500E193FD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D01EB7E21D0312DE00D7179A /* LaunchScreen.storyboard in Resources */,
-				D01EB7DF1D0312DE00D7179A /* Assets.xcassets in Resources */,
-				D01EB7DD1D0312DE00D7179A /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D01EB7E61D0312DE00D7179A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D01EB7F11D0312DE00D7179A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				D0EA3A291D0B096500E193FD /* LaunchScreen.storyboard in Resources */,
+				D0EA3A261D0B096500E193FD /* Assets.xcassets in Resources */,
+				D03FC8851D0BE34600FB876B /* IMG_0024.MOV in Resources */,
+				D0EA3A241D0B096500E193FD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D01EB7CC1D0312DE00D7179A /* Sources */ = {
+		D0EA3A171D0B096500E193FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D03BD1B01D04550800780383 /* AVPlayerView.swift in Sources */,
-				D03BD1AE1D0454DF00780383 /* ViewController.swift in Sources */,
-				D01EB7D61D0312DE00D7179A /* RootViewController.swift in Sources */,
-				D01EB7DA1D0312DE00D7179A /* ModelController.swift in Sources */,
-				D01EB7D81D0312DE00D7179A /* DataViewController.swift in Sources */,
-				D01EB7D41D0312DE00D7179A /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D01EB7E41D0312DE00D7179A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D01EB7ED1D0312DE00D7179A /* holonotifyTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D01EB7EF1D0312DE00D7179A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D01EB7F81D0312DE00D7179A /* holonotifyUITests.swift in Sources */,
+				D0EA3A211D0B096500E193FD /* ViewController.swift in Sources */,
+				D0EA3A1F1D0B096500E193FD /* AppDelegate.swift in Sources */,
+				D0EA3A311D0B0AEC00E193FD /* VideoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		D01EB7EA1D0312DE00D7179A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D01EB7CF1D0312DE00D7179A /* holonotify */;
-			targetProxy = D01EB7E91D0312DE00D7179A /* PBXContainerItemProxy */;
-		};
-		D01EB7F51D0312DE00D7179A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D01EB7CF1D0312DE00D7179A /* holonotify */;
-			targetProxy = D01EB7F41D0312DE00D7179A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		D01EB7DB1D0312DE00D7179A /* Main.storyboard */ = {
+		D0EA3A221D0B096500E193FD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D01EB7DC1D0312DE00D7179A /* Base */,
+				D0EA3A231D0B096500E193FD /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D01EB7E01D0312DE00D7179A /* LaunchScreen.storyboard */ = {
+		D0EA3A271D0B096500E193FD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D01EB7E11D0312DE00D7179A /* Base */,
+				D0EA3A281D0B096500E193FD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -330,7 +170,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D01EB7FA1D0312DE00D7179A /* Debug */ = {
+		D0EA3A2B1D0B096500E193FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -374,7 +214,7 @@
 			};
 			name = Debug;
 		};
-		D01EB7FB1D0312DE00D7179A /* Release */ = {
+		D0EA3A2C1D0B096500E193FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -411,120 +251,50 @@
 			};
 			name = Release;
 		};
-		D01EB7FD1D0312DE00D7179A /* Debug */ = {
+		D0EA3A2E1D0B096500E193FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = holonotify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sximada.holonotify;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sximada.holonotify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D01EB7FE1D0312DE00D7179A /* Release */ = {
+		D0EA3A2F1D0B096500E193FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = holonotify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sximada.holonotify;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sximada.holonotify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		D01EB8001D0312DE00D7179A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = holonotifyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sximada.holonotifyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/holonotify.app/holonotify";
-			};
-			name = Debug;
-		};
-		D01EB8011D0312DE00D7179A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = holonotifyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sximada.holonotifyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/holonotify.app/holonotify";
-			};
-			name = Release;
-		};
-		D01EB8031D0312DE00D7179A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = holonotifyUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sximada.holonotifyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = holonotify;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		D01EB8041D0312DE00D7179A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = holonotifyUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sximada.holonotifyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = holonotify;
-				USES_XCTRUNNER = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D01EB7CB1D0312DE00D7179A /* Build configuration list for PBXProject "holonotify" */ = {
+		D0EA3A161D0B096500E193FD /* Build configuration list for PBXProject "holonotify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D01EB7FA1D0312DE00D7179A /* Debug */,
-				D01EB7FB1D0312DE00D7179A /* Release */,
+				D0EA3A2B1D0B096500E193FD /* Debug */,
+				D0EA3A2C1D0B096500E193FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D01EB7FC1D0312DE00D7179A /* Build configuration list for PBXNativeTarget "holonotify" */ = {
+		D0EA3A2D1D0B096500E193FD /* Build configuration list for PBXNativeTarget "holonotify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D01EB7FD1D0312DE00D7179A /* Debug */,
-				D01EB7FE1D0312DE00D7179A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D01EB7FF1D0312DE00D7179A /* Build configuration list for PBXNativeTarget "holonotifyTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D01EB8001D0312DE00D7179A /* Debug */,
-				D01EB8011D0312DE00D7179A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D01EB8021D0312DE00D7179A /* Build configuration list for PBXNativeTarget "holonotifyUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D01EB8031D0312DE00D7179A /* Debug */,
-				D01EB8041D0312DE00D7179A /* Release */,
+				D0EA3A2E1D0B096500E193FD /* Debug */,
+				D0EA3A2F1D0B096500E193FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D01EB7C81D0312DE00D7179A /* Project object */;
+	rootObject = D0EA3A131D0B096500E193FD /* Project object */;
 }

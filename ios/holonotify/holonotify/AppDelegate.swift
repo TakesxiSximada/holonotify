@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  holonotify
 //
-//  Created by TakesxiSximada on 2016/06/04.
+//  Created by TakesxiSximada on 2016/06/10.
 //  Copyright © 2016年 sximada. All rights reserved.
 //
 
